@@ -64,7 +64,7 @@ img {
     margin: 0px auto;
     padding: 10px 60px;
     display: flex;
-   align-items: center;
+   justify-content:center;
    background: #1a759f;
    color: aliceblue;
    text-shadow: 0 0 1px aliceblue;
