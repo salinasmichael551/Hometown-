@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0 0 1px black;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#hero{
+    background-image: url(./images/puerto.jpg);
+    background-size: cover;
+    text-shadow: 0 0 1px black;
+    padding: 150px;
+
+}
+
+#hero:hover{
+    background-image: url(./images/sunset.jpg);
+}
+
+#visit{
+    padding: 30px 50px;
+    border: 15px solid #34a0a4;
+    border-radius: 3%;
+}
+
+#enjoy{
+      padding: 30px 10px;
+      background:  #34a0a4;
+      margin-top: 100px;
+      border-radius: 2%
+}
+
+#top{
+    background-color: #52b69a;
+    font-size: 20px;
+    padding: 1px 10px 1px;
+}
+
+.midsection{
+    padding: 30px 0 50px 0;
+    background-color: #52b69a;
+    display:flex;
+
+}
+    
+img {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.box{
+    width: 681px;
+    margin: 0px auto;
+    padding: 10px 60px;
+    display: flex;
+   align-items: center;
+   background: #1a759f;
+   color: aliceblue;
+   text-shadow: 0 0 1px aliceblue;
+}
+
+.headshot-text{
+    padding: 10px 30px;
+    border: 3px solid aliceblue;
+    margin: 0 30px;
+    border-radius: 3%;
+    
+}
+
+#headshot{
+   border-radius:10%;
+   height: 180px;
+   width: 220px;
+   display: flex;
+   border: 3px solid aliceblue;
+}
+
+
